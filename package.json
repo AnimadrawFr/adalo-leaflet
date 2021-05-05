@@ -1,0 +1,30 @@
+{
+  "name": "leaflet",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "leaflet",
+    "components": [
+      {
+        "name": "Leaflet",
+        "manifest": "./src/components/Leaflet/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "0.0.41",
+    "react": "^16.14.0",
+    "react-art": "^16.13.1",
+    "react-dom": "^16.14.0",
+    "react-native-web": "^0.9.13"
+  }
+}
