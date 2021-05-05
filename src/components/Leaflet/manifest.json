@@ -1,9 +1,11 @@
 {
   "displayName": "leaflet",
-  "defaultWidth": 160,
-  "defaultHeight": 24,
+  "defaultWidth": 200,
+  "defaultHeight": 200,
   "components": "./index.js",
   "icon": "./example-thumbnail.png",
+  "resizeX": true,
+  "resizeY": false,
   "props": [
     {
       "name": "text",

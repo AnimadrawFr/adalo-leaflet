@@ -1,10 +1,10 @@
 {
   "name": "leaflet",
-  "description": "",
+  "description": "leaflet component for adalo",
   "version": "1.0.0",
   "main": "index.js",
   "license": "ISC",
-  "author": "",
+  "author": "Abstrakts.fr",
   "scripts": {
     "start": "adalo dev",
     "login": "adalo login",
@@ -26,5 +26,9 @@
     "react-art": "^16.13.1",
     "react-dom": "^16.14.0",
     "react-native-web": "^0.9.13"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "react-leaflet": "^3.1.0"
   }
 }
